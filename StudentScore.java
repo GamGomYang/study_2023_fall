@@ -1,4 +1,4 @@
-package java_study;
+
 import java.util.Scanner;
 
 class Student{
