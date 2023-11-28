@@ -1,6 +1,35 @@
 
 
     /*
+    
+import java.util.Scanner;
+public class Solution{
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        boolean flag = sc.nextBoolean();
+
+        Solution calculate = new Solution();
+        int result = calculate.solution(a,b,flag);
+        System.out.print(result);
+
+    }
+    public int solution(int a, int b, boolean flag){
+        int answer =0;
+        if(flag){
+            answer = a+b;
+        }
+        else{
+            answer = a-b;
+        }
+        return answer;
+    }
+}
+
+
+
+
 import java.util.Scanner;
 public class Solution{
 
